@@ -1,0 +1,10 @@
+ MVI A,00H
+  MVI B,0AH
+  MVI C,01H
+  LOOP:ADD C
+  INR C
+  DCR B
+  JNZ LOOP
+  STA 2400H
+  HLT
+
