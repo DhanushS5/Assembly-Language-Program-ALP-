@@ -1,0 +1,4 @@
+ORG 0000H
+MOV P1,#FFH
+CLR P1.3
+END    
